@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 public class ContatoServlet extends HttpServlet{
 
 	@Override
-	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {		
 		PrintWriter writer = resp.getWriter();
 		writer.println("<html><h2>Entre em contato conosco</h2</html>");
 	}
